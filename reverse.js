@@ -7,9 +7,17 @@ numbers.reverse()
   */
 
 const rev_numbers = [];
-
+/* 
 for (const num of numbers) {
   rev_numbers.unshift(num);
 }
 
 console.log(rev_numbers);
+ */
+
+for (let i = 0; i < numbers.length; i++) {
+  const num = numbers[i];
+  rev_numbers_numbers.unshift(num);
+}
+
+ 
