@@ -1,23 +1,10 @@
-const college = {
-  name: "vnc",
-  class: ["11", "12"],
-  events: ["science fair", "bijoy dibos", "21 Feb"],
-  unique: {
-    color: "blue",
-    result: {
-      gpa: 5,
-      merit: "top",
-    },
-  },
-};
+let text = "Arifa";
+// let count = 0;
 
-// console.log(college.unique);
-college.unique.result.merit = "top top top most";
+// for (let i = 0; i <= text.length; i++) {
+//   if (text[i].toLocaleLowerCase() === "a") {
+//     count++;
+//   }
+// }
 
-// console.log(college["unique"].result.merit);
-college.events[1] = "16 December";
-// console.log(college.events);
-
-delete college.class;
-
-console.log(college);
+// console.log(count);
